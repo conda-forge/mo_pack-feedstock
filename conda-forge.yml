@@ -1,0 +1,7 @@
+templates:
+    run_docker_build: run_docker_build_matrix.tmpl
+
+channels:
+    sources:
+        - conda-forge
+    target: conda-forge
