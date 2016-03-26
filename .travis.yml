@@ -7,9 +7,12 @@ language: objective-c
 env:
   matrix:
     
-    - CONDA_PY=27  
-    - CONDA_PY=34  
-    - CONDA_PY=35  
+    - CONDA_NPY=110  CONDA_PY=27  
+    - CONDA_NPY=19  CONDA_PY=27  
+    - CONDA_NPY=110  CONDA_PY=34  
+    - CONDA_NPY=19  CONDA_PY=34  
+    - CONDA_NPY=110  CONDA_PY=35  
+    - CONDA_NPY=19  CONDA_PY=35  
 
 
 install:
