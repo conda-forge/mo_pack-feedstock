@@ -1,24 +1,24 @@
 package:
   name: mo_pack
-  version: 0.1.0dev0
+  version: 0.2.0
 
 source:
   git_url: https://github.com/SciTools/mo_pack.git
-  git_tag: master
+  git_tag: v0.2.0
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
     - python
-    - numpy
+    - numpy x.x
     - setuptools
     - cython
     - libmo_unpack # [not win]
   run:
     - python
-    - numpy
+    - numpy x.x
     - libmo_unpack # [not win]
 
 test:
