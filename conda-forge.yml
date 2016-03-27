@@ -1,7 +1,10 @@
 templates:
-    run_docker_build: run_docker_build_matrix.tmpl
+  run_docker_build: run_docker_build_matrix.tmpl
 
 channels:
-    sources:
-        - conda-forge
-    target: conda-forge
+  sources:
+  - conda-forge
+  target: conda-forge
+appveyor:
+  secure:
+    BINSTAR_TOKEN: KDvUkPrcdKmV2MxakkyQlrLA0rE/6WSuXxD42UezzZjCB0TRqnnOeebSW03/SnFP
