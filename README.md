@@ -1,9 +1,9 @@
 About mo_pack
 =============
 
-Home: 
+Home: https://github.com/SciTools/mo_pack
 
-Package license: GNU LGPL
+Package license: LGPL-3.0
 
 Feedstock license: BSD
 
@@ -72,6 +72,11 @@ Current build status
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/mo_pack-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/mo_pack-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/mo_pack-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/mo_pack-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/mo_pack-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/mo_pack-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mo_pack/badges/version.svg)](https://anaconda.org/conda-forge/mo_pack)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mo_pack/badges/downloads.svg)](https://anaconda.org/conda-forge/mo_pack)
 
 
 Updating mo_pack-feedstock
