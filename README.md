@@ -69,9 +69,10 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/mo_pack-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/mo_pack-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/mo_pack-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/mo_pack-feedstock) 
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/mo_pack-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/mo_pack-feedstock/branch/master)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/mo-pack-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/mo-pack-feedstock/branch/master)
 
 Current release info
 ====================
