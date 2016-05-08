@@ -40,7 +40,7 @@ echo "$config" > ~/.condarc
 conda clean --lock
 
 conda update --yes --all
-conda install --yes conda-build==1.18.2
+conda install --yes conda-build
 conda info
 
 # Embarking on 6 case(s).
