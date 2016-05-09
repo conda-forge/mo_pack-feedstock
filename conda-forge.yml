@@ -7,7 +7,7 @@ channels:
   target: conda-forge
 appveyor:
   secure:
-    BINSTAR_TOKEN: fLfuo8cpK0MHhcqTNadUVNIMzHPkSYLMJOfYqQwcDSehCQHd5ITy8KkWRQC52vF7
+    BINSTAR_TOKEN: KDvUkPrcdKmV2MxakkyQlrLA0rE/6WSuXxD42UezzZjCB0TRqnnOeebSW03/SnFP
 travis:
   secure:
-    BINSTAR_TOKEN: Ex7c/bXpuYw2dT2rC8+yo4MGuNwKbdcNPUrtGls04D66JlhOGm1RU/oiqumOeqLp2nEPcOeExnS1PnFoXfk+1iJHLbQyCzUBMZJezoMvksAPGfz1f9Rc/t+QD2gyuWRahUxdOZ9jStEWOGAJaJl5iEV1n5ITzGLLmcmvZmdBhh8=
+    BINSTAR_TOKEN: YYUbNZU1Ij+v8pHwgYz0kQ5BlNvHmV8nxupHuhLS6SdTUX5Yi9ngdwh1O26EPIwFckgfR+qmNDXCktCtbaEfRAHFOPrCtZtb4WGYorK7lJT+zZhSIQo8JiWtFT/ROi9dn48NE2HIOZz9B20JLkIj+wGR/yHGOZmWbSpzb1SDX98=
