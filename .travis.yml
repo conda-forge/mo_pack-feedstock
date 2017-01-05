@@ -15,6 +15,8 @@ env:
     - CONDA_NPY=111  CONDA_PY=34
     - CONDA_NPY=110  CONDA_PY=35
     - CONDA_NPY=111  CONDA_PY=35
+    - CONDA_NPY=110  CONDA_PY=36
+    - CONDA_NPY=111  CONDA_PY=36
   global:
     # The BINSTAR_TOKEN secure variable. This is defined canonically in conda-forge.yml.
     - secure: "YYUbNZU1Ij+v8pHwgYz0kQ5BlNvHmV8nxupHuhLS6SdTUX5Yi9ngdwh1O26EPIwFckgfR+qmNDXCktCtbaEfRAHFOPrCtZtb4WGYorK7lJT+zZhSIQo8JiWtFT/ROi9dn48NE2HIOZz9B20JLkIj+wGR/yHGOZmWbSpzb1SDX98="
@@ -28,12 +30,14 @@ before_install:
 
 install:
     - |
-      MINICONDA_URL="http://repo.continuum.io/miniconda"
+      MINICONDA_URL="https://repo.continuum.io/miniconda"
       MINICONDA_FILE="Miniconda3-latest-MacOSX-x86_64.sh"
-      curl -O "${MINICONDA_URL}/${MINICONDA_FILE}"
+      curl -L -O "${MINICONDA_URL}/${MINICONDA_FILE}"
       bash $MINICONDA_FILE -b
 
       source /Users/travis/miniconda3/bin/activate root
+      conda config --remove channels defaults
+      conda config --add channels defaults
       conda config --add channels conda-forge
       conda config --set show_channel_urls true
       conda install --yes --quiet conda-forge-build-setup
