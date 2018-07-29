@@ -1,6 +1,6 @@
 appveyor:
   secure:
-    BINSTAR_TOKEN: ipv/06DzgA7pzz2CIAtbPxZSsphDtF+JFyoWRnXkn3O8j7oRe3rzqj3LOoq2DZp4
+    BINSTAR_TOKEN: tumuXLL8PU75WMnRDemRy02ruEq2RpNxeK3dz0MjFssnosPm2v4EFjfNB4PTotA1
 travis:
   secure:
-    BINSTAR_TOKEN: NblryNZfknUyRvl/U7vTBbaI+hdgcRPCpNyjIvP9UUprN8kPHdAaXOWDbb6pbnZmTTfGHoaFrzwF5mlBYfGXG7Vq3FjLOtqOPtNELQ8mWaW6qhyvKUBY7Qtkw4nQw1ZkhLgU/n0gFItN0ALIuVVZqNTQp0Zn7pbzO+R5b6MuO8o=
+    BINSTAR_TOKEN: cCXSTyEeHR9C7pdk/IUrY+OyYrsRTLGjAugAnF8U+W+kvARX/JsFtm8xdkgWDd0fjggLRJf+u4Egu+4FMUn+DGpbV9AbVejKgsKYZjA/ua2/UnZXSQ21WrihX5Zr0GD9uVFAhmyLyOSg+ljZf4/GTy7argX6eEQqAvU6H3pntZQ=
