@@ -9,7 +9,7 @@ source:
   sha256: 4aa70e1f846b666670843bc2514435dedf7393203e88abaf74d48f8f2717a726
 
 build:
-  number: 2
+  number: 3
   skip: True  # [win]
 
 requirements:
@@ -29,9 +29,6 @@ requirements:
 test:
   imports:
     - mo_pack
-  commands:
-    - conda inspect linkages -p $PREFIX mo_pack  # [not win]
-    - conda inspect objects -p $PREFIX mo_pack  # [osx]
 
 about:
     home: https://github.com/SciTools/mo_pack

@@ -4,3 +4,4 @@ appveyor:
 travis:
   secure:
     BINSTAR_TOKEN: cCXSTyEeHR9C7pdk/IUrY+OyYrsRTLGjAugAnF8U+W+kvARX/JsFtm8xdkgWDd0fjggLRJf+u4Egu+4FMUn+DGpbV9AbVejKgsKYZjA/ua2/UnZXSQ21WrihX5Zr0GD9uVFAhmyLyOSg+ljZf4/GTy7argX6eEQqAvU6H3pntZQ=
+max_py_ver: '37'
