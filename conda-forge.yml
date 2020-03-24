@@ -1,7 +1,4 @@
 appveyor:
   secure: {BINSTAR_TOKEN: tumuXLL8PU75WMnRDemRy02ruEq2RpNxeK3dz0MjFssnosPm2v4EFjfNB4PTotA1}
-compiler_stack: comp7
-max_py_ver: '37'
-max_r_ver: '35'
 travis:
   secure: {BINSTAR_TOKEN: cCXSTyEeHR9C7pdk/IUrY+OyYrsRTLGjAugAnF8U+W+kvARX/JsFtm8xdkgWDd0fjggLRJf+u4Egu+4FMUn+DGpbV9AbVejKgsKYZjA/ua2/UnZXSQ21WrihX5Zr0GD9uVFAhmyLyOSg+ljZf4/GTy7argX6eEQqAvU6H3pntZQ=}
