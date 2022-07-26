@@ -3,7 +3,7 @@ About mo_pack
 
 Home: https://github.com/SciTools/mo_pack
 
-Package license: LGPL-3.0
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mo_pack-feedstock/blob/main/LICENSE.txt)
 
@@ -239,6 +239,8 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@bjlittle](https://github.com/bjlittle/)
+* [@lbdreyer](https://github.com/lbdreyer/)
 * [@ocefpaf](https://github.com/ocefpaf/)
 * [@pelson](https://github.com/pelson/)
 
