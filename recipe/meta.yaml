@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.2.0.post0" %}
 
 package:
   name: mo_pack
@@ -6,11 +6,11 @@ package:
 
 source:
   url: https://github.com/SciTools/mo_pack/archive/v{{ version }}.tar.gz
-  sha256: 4aa70e1f846b666670843bc2514435dedf7393203e88abaf74d48f8f2717a726
+  sha256: 9c4b355d1b21b262fa82ca7ab508d8fb236b83c19660bcc503f01506f5699f89
 
 build:
-  number: 1007
-  skip: True  # [win]
+  number: 0
+  skip: true  # [win]
 
 requirements:
   build:
@@ -31,10 +31,10 @@ test:
     - mo_pack
 
 about:
-    home: https://github.com/SciTools/mo_pack
-    license: LGPL-3.0
-    license_file: COPYING.LESSER
-    summary: 'Python wrapper to libmo_unpack'
+  home: https://github.com/SciTools/mo_pack
+  license: LGPL-3.0
+  license_file: COPYING.LESSER
+  summary: Python wrapper to libmo_unpack
 
 extra:
   recipe-maintainers:
