@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mo_pack-feedsto
 
 Home: https://github.com/SciTools/mo_pack
 
-Package license: LGPL-3.0
+Package license: BSD-3-Clause
 
 Summary: Python wrapper to libmo_unpack
 
