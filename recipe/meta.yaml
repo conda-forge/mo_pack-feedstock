@@ -32,8 +32,8 @@ test:
 
 about:
     home: https://github.com/SciTools/mo_pack
-    license: LGPL-3.0
-    license_file: COPYING.LESSER
+    license: BSD-3-Clause
+    license_file: LICENSE
     summary: 'Python wrapper to libmo_unpack'
 
 extra:
