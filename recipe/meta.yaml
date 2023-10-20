@@ -1,28 +1,30 @@
-{% set version = "0.2.0" %}
+{% set name = "mo_pack" %}
+{% set version = "0.3.0" %}
 
 package:
-  name: mo_pack
+  name: {{ name|lower }} 
   version: {{ version }}
 
 source:
-  url: https://github.com/SciTools/mo_pack/archive/v{{ version }}.tar.gz
-  sha256: 4aa70e1f846b666670843bc2514435dedf7393203e88abaf74d48f8f2717a726
+  url: https://github.com/SciTools/{{ name }}/archive/v{{ version }}.tar.gz
+  sha256: 51f2cf18972861c9dd51ac40b2afa20753502fbb32a643caba48b2a9460c037a
 
 build:
-  number: 1008
+  number: 0 
   skip: True  # [win]
 
 requirements:
   build:
     - {{ compiler('c') }}
   host:
-    - python
-    - setuptools
-    - cython
-    - numpy
+    - python >=3.9
+    - setuptools >=64
+    - setuptools-scm >=8
+    - cython >=3
     - libmo_unpack
+    - numpy >=1.22
   run:
-    - python
+    - python >=3.9
     - libmo_unpack
     - {{ pin_compatible('numpy') }}
 
@@ -32,11 +34,20 @@ test:
 
 about:
     home: https://github.com/SciTools/mo_pack
-    license: LGPL-3.0
-    license_file: COPYING.LESSER
+    license: BSD-3-Clause 
+    license_family: BSD
+    license_file: LICENSE
     summary: 'Python wrapper to libmo_unpack'
+
+    description: |
+      Provides Python bindings to the C library libmo_unpack which contains packing methods
+      used to encode and decode the data payloads of Met Office UM Post-Processing and
+      Fields files.
+    dev_url: https://github.com/SciTools/mo_pack
 
 extra:
   recipe-maintainers:
     - pelson
     - ocefpaf
+    - bjlittle
+    - trexfeathers
