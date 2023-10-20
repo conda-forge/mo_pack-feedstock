@@ -17,14 +17,14 @@ requirements:
   build:
     - {{ compiler('c') }}
   host:
-    - python >=3.9
+    - python
     - setuptools >=64
     - setuptools-scm >=8
     - cython >=3
     - libmo_unpack
     - numpy >=1.22
   run:
-    - python >=3.9
+    - python
     - libmo_unpack
     - {{ pin_compatible('numpy') }}
 
