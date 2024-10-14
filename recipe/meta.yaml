@@ -1,5 +1,5 @@
 {% set name = "mo_pack" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }} 
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/SciTools/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 51f2cf18972861c9dd51ac40b2afa20753502fbb32a643caba48b2a9460c037a
+  sha256: c04d86d1c772750835c392e4cd4170540de2d6414ce9305bdf1d9346b6697d27
 
 build:
   number: 1
@@ -26,7 +26,6 @@ requirements:
   run:
     - python
     - libmo_unpack
-    - {{ pin_compatible('numpy') }}
 
 test:
   imports:
