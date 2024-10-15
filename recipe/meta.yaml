@@ -1,21 +1,22 @@
 {% set name = "mo_pack" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
-  name: {{ name|lower }} 
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
   url: https://github.com/SciTools/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 51f2cf18972861c9dd51ac40b2afa20753502fbb32a643caba48b2a9460c037a
+  sha256: ba56c39df231e93ed418a463d4df42c1b185a0ec6074b7678fe889f2c9a2605c
 
 build:
-  number: 1
-  skip: True  # [win]
+  number: 0
+  skip: true  # [win]
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - python
     - setuptools >=64
@@ -33,17 +34,17 @@ test:
     - mo_pack
 
 about:
-    home: https://github.com/SciTools/mo_pack
-    license: BSD-3-Clause 
-    license_family: BSD
-    license_file: LICENSE
-    summary: 'Python wrapper to libmo_unpack'
+  home: https://github.com/SciTools/mo_pack
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: 'Python wrapper to libmo_unpack'
 
-    description: |
-      Provides Python bindings to the C library libmo_unpack which contains packing methods
-      used to encode and decode the data payloads of Met Office UM Post-Processing and
-      Fields files.
-    dev_url: https://github.com/SciTools/mo_pack
+  description: |
+    Provides Python bindings to the C library libmo_unpack which contains packing methods
+    used to encode and decode the data payloads of Met Office UM Post-Processing and
+    Fields files.
+  dev_url: https://github.com/SciTools/mo_pack
 
 extra:
   recipe-maintainers:
